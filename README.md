@@ -4,20 +4,19 @@
 
 以SPARK数据集为例
 
-SPARK数据集格式
+### SPARK数据集格式
 
-└───data/  
-        ├───train_rgb/  
-            ├───AcrimSat/  
-            ├───Aquarius/  
-            ├───Aura/  
-            ├───...
-            
-        ├───train_depth/  
-            ├───AcrimSat/  
-            ├───Aquarius/  
-            ├───Aura/  
-            ├───...
+        └───data/  
+            ├───train_rgb/  
+                ├───AcrimSat/  
+                ├───Aquarius/  
+                ├───Aura/  
+                ├───...
+            ├───train_depth/  
+                ├───AcrimSat/  
+                ├───Aquarius/  
+                ├───Aura/  
+                ├───...
             
         ├───train_labels.csv
         ├───validate_rgb/  
@@ -33,13 +32,12 @@ SPARK数据集格式
             ├───... 
         ├───validate_labels.csv
 
-
-    目标yolo数据集格式
+### 目标yolo数据集格式
     
-    dataset/
-├── train/
-│   ├── images/
-│   └── labels/
-└── val/
-    ├── images/
-    └── labels/
+                dataset/
+                ├── train/
+                │   ├── images/
+                │   └── labels/
+                └── val/
+                    ├── images/
+                    └── labels/
